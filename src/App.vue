@@ -1,3 +1,5 @@
 <template>
-  <div>App.vue</div>
+  <div>
+    <h1 className="flex text-3xl font-bold underline">Hello world!</h1>
+  </div>
 </template>
