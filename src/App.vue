@@ -1,15 +1,17 @@
 <template>
-  <div>
-    <h1 class="flex text-3xl font-bold underline">Hello world!</h1>
-    <main-nav />
-  </div>
+  <main-nav />
+  <the-hero />
 </template>
 
 <script>
 import MainNav from "@/components/MainNav.vue";
+import TheHero from "@/components/TheHero.vue";
+
 export default {
+  name: "App",
   components: {
     MainNav,
+    TheHero,
   },
 };
 </script>
